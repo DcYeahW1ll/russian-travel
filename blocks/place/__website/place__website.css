@@ -1,0 +1,29 @@
+@import url(../__website/__url-heading/website__url-heading.css);
+@import url(../__website/__link/website__link.css);
+
+.place__website {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ align-items: center;
+ gap: 40px;
+}
+
+@media all and (max-width: 1024px) {
+  .place__website {
+    gap: 32px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place__website {
+    gap: 28px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

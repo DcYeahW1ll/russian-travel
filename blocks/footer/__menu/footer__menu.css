@@ -1,0 +1,26 @@
+@import url(../__menu/__list/menu__list.css);
+@import url(../__menu/__list/__link/list__link.css);
+
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 24px;
+}
+
+@media all and (max-width: 768px) {
+  .footer__menu {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer__menu {
+    flex-direction: column;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    gap: 48px;
+  }
+}

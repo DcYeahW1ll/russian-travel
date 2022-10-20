@@ -1,0 +1,5 @@
+.header__list {
+  color: #FFF;
+  display: flex;
+  gap: 18px;
+}

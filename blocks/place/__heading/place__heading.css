@@ -1,0 +1,12 @@
+.place__heading {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 12px;
+}
+
+@media all and (max-width: 320px) {
+  .place__heading {
+    align-self: flex-start;
+  }
+}
