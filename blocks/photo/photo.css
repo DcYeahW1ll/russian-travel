@@ -4,7 +4,6 @@
   max-width: 1184px;
   min-width: auto;
   margin: 92px auto 92px;
-  border: 1px solid red;
 }
 
 @media all and (max-width: 1024px) {
