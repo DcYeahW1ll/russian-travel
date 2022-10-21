@@ -2,8 +2,7 @@
 @import url(../__website/__link/website__link.css);
 
 .place__website {
- display: grid;
- grid-template-columns: repeat(2, 1fr);
+ display: flex;
  align-items: center;
  gap: 40px;
 }
