@@ -1,11 +1,3 @@
-@import url(../place/__image/place__image.css);
-@import url(../place/__title/place__title.css);
-@import url(../place/__paragraph/place__paragraph.css);
-@import url(../place/__website/place__website.css);
-@import url(../place/__heading/place__heading.css);
-@import url(../place/__info/place__info.css);
-@import url(../place/__paragraphs/place__paragraphs.css);
-
 .place {
   display: flex;
   flex-direction: column;

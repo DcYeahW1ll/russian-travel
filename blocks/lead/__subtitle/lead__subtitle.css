@@ -3,8 +3,6 @@
   line-height: 1.2;
   font-weight: 400;
   text-align: center;
-  /* width: 640px;
-  height: 72px; */
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -17,5 +15,4 @@
         width: 288px;
         height: 40px;
     }
-
 }
