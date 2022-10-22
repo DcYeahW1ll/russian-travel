@@ -1,5 +1,3 @@
-@import url(../place/place.css);
-
 .places {
   display: flex;
   gap: 80px;

@@ -1,6 +1,3 @@
-@import url(../__website/__url-heading/website__url-heading.css);
-@import url(../__website/__link/website__link.css);
-
 .place__website {
  display: flex;
  align-items: center;
