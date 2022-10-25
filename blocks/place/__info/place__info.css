@@ -15,6 +15,14 @@
   }
 }
 
+@media all and (max-width: 630px) {
+  .place__info {
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 320px) {
   .place__info {
     flex-direction: column;

@@ -1,6 +1,5 @@
 .header__lang-link {
   max-width: 29px;
-  max-height: 28px;
   font-size: 1.5rem;
   line-height: 1.1;
   font-weight: 400;
@@ -11,7 +10,6 @@
 @media all and (max-width: 320px) {
   .header__lang-link {
     max-width: 22px;
-    max-height: 20px;
     font-size: 1.1rem;
     line-height: 1.1;
   }

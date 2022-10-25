@@ -13,6 +13,12 @@
   }
 }
 
+@media all and (max-width: 730px) {
+  .footer__menu {
+    flex-direction: column;
+  }
+}
+
 @media all and (max-width: 320px) {
   .footer__menu {
     flex-direction: column;

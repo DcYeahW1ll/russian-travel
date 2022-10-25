@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+@media all and (max-width: 510px) {
+  .footer__list {
+    flex-direction: column;
+  }
+}
+
 @media all and (max-width: 320px) {
   .footer__list {
     flex-direction: column;

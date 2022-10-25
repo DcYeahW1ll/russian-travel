@@ -5,6 +5,12 @@
   gap: 12px;
 }
 
+@media all and (max-width: 630px) {
+  .place__heading {
+    align-self: flex-start;
+  }
+}
+
 @media all and (max-width: 320px) {
   .place__heading {
     align-self: flex-start;
