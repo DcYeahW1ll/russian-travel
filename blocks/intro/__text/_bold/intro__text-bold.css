@@ -1,0 +1,7 @@
+.intro__text_bold {
+  font-family: 'Inter-Bold', serif;
+  display: flex;
+  font-weight: bold;
+  max-width: 100%;
+  margin: 0;
+}

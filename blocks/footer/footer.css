@@ -2,6 +2,18 @@
   margin-top: 92px;
 }
 
+@media all and (max-width: 1024px) {
+  .footer {
+    margin-top: 94px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .footer {
     margin-top: 64px;

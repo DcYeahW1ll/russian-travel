@@ -6,24 +6,25 @@
   padding-bottom: 24px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .footer__menu {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 768px) {
   .footer__menu {
     flex-direction: column;
+    padding-left: 24px;
   }
 }
 
 @media all and (max-width: 320px) {
   .footer__menu {
-    flex-direction: column;
     padding-bottom: 24px;
     padding-left: 16px;
     gap: 48px;
+    flex-direction: column;
   }
 }

@@ -1,6 +1,7 @@
 .lead {
     display: flex;
     flex-direction: column;
+    max-width: 984px;
     align-items: center;
     margin: auto;
     margin-top: 56px;
@@ -10,17 +11,20 @@
 @media all and (max-width: 1024px) {
     .lead {
       margin-top: 48px;
+      max-width: 928px;
     }
 }
 
 @media all and (max-width: 768px) {
   .lead {
     margin-bottom: 88px;
+    max-width: 768px;
   }
 }
 
 @media all and (max-width: 320px) {
   .lead {
+    max-width:  320px;
     margin-bottom: 64px;
   }
 }
