@@ -1,16 +1,3 @@
 .header__lang-link_selected {
-  max-width: 29px;
-  font-size: 1.5rem;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #FFFFFF;
   text-decoration: underline;
-}
-
-@media all and (max-width: 320px) {
-  .header__lang-link_selected {
-    max-width: 22px;
-    font-size: 1.1rem;
-    line-height: 1.1;
-  }
 }

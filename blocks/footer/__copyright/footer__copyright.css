@@ -1,5 +1,13 @@
 .footer__copyright {
-  font-size: 0.9rem;
-  line-height: 1;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
   font-weight: 400;
+  align-self: center;
+}
+
+@media all and (max-width: 768px) {
+  .footer__copyright {
+    align-self: flex-start;
+  }
 }
