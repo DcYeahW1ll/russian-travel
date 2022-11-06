@@ -6,13 +6,6 @@
   padding-bottom: 24px;
 }
 
-@media all and (max-width: 1024px) {
-  .footer__menu {
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-
 @media all and (max-width: 768px) {
   .footer__menu {
     padding-left: 24px;
@@ -28,7 +21,6 @@
 
 @media all and (max-width: 320px) {
   .footer__menu {
-    padding-bottom: 24px;
     padding-left: 16px;
     gap: 48px;
   }
