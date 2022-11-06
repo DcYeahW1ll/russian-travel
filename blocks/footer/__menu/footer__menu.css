@@ -9,6 +9,7 @@
 @media all and (max-width: 768px) {
   .footer__menu {
     padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
